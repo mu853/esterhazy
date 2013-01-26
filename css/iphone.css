@@ -40,10 +40,13 @@ img.full {
   width: 460px;
 }
 
-img.small {
+img.middle {
   width: 460px;
 }
 
+img.small {
+  width: 320px;
+}
 
 /************/
 /*  header  */
