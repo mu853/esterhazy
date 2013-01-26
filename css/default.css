@@ -50,8 +50,12 @@ img.full {
   width: 760px;
 }
 
-img.small {
+img.middle {
   width: 480px;
+}
+
+img.small {
+  width: 320px;
 }
 
 ul {
