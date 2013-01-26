@@ -55,7 +55,7 @@ img.middle {
 }
 
 img.small {
-  width: 320px;
+  width: 180px;
 }
 
 ul {
@@ -145,7 +145,7 @@ dd {
 }
 
 #contents .main {
-  width: 500px;
+  width: 760px;
   float: left;
 }
 
