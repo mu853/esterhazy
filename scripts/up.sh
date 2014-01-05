@@ -2,7 +2,6 @@
 scriptdir=$(cd $(dirname $0) && pwd)/scripts;
 
 ftp esterhazy.web.fc2.com << EOS | $scriptdir/ftp2ls.pl > $scriptdir/remote.txt
-cd ester
 ls -lR
 exit
 EOS

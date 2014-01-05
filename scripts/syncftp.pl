@@ -94,7 +94,7 @@ my $ftpserver = "esterhazy.web.fc2.com";
 my $ftp = Net::FTP->new($ftpserver, Debug => 0);
 
 $ftp->login or die "cannot login to $ftpserver.";    # use ~/.netrc
-$ftp->cwd("ester") or die "cannot cd ester";
+#$ftp->cwd("ester") or die "cannot cd ester";
 
 foreach my $filename (@files_modified){
     print "uploading.. $filename\n";
