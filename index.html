@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=480" />
     <link rel="stylesheet" href="css/default.css" type="text/css">
     <link media="only screen and (max-device-width: 480px)" rel="stylesheet" href="css/iphone.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="script/common.js"></script>
     <title>Esterhazy Chamber Orchestra</title>
   </head>
 
-  <body onload="fc2_qr_close()">
+  <body onload="jQuery('#fc2_qr_code_header').empty()">
     <div id="header">
       <div id="title">
         <a href="index.html">
@@ -25,6 +27,7 @@
           <li><a href="concertinfo.html">演奏会情報</a></li>
           <li><a href="recruitment.html">団員募集</a></li>
           <li><a href="contactus.html">お問い合わせ</a></li>
+          <li><a href="schedule.html">練習計画</a></li>
         </ul>
       </div>
     </div>
@@ -35,6 +38,8 @@
       <div class="main">
         <div class="title">第５回演奏会のお知らせ</div>
         <div class="body">
+          <br />
+          <img class="small" src="img/concert_5th.jpg" align="right"/><br />
           下記の通り開催が決定しました。<br>
           次回は初めてベートーベンに取り組みます。ご期待ください。<br>
           <br>
