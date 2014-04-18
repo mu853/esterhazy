@@ -58,6 +58,12 @@ img.small {
   width: 180px;
 }
 
+img#logo_image {
+  width: 100px;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
 ul {
   padding-left: 30px;
 }
