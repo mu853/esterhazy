@@ -176,3 +176,21 @@ dd {
 #contents .info {
   color: #cf1010;
 }
+
+/************/
+/*  footer  */
+/************/
+
+#footer {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#footer div {
+  font-size: 80%;
+  margin-top: 5px;
+}
+
+#footer div a {
+  font-size: 120%;
+}

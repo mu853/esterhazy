@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://esterhazy.web.fc2.com/sitemap.xml
